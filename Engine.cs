@@ -1,10 +1,10 @@
 /* Maftoul Omar December 2017 */
 
-/*The Engine class control constraints of 
-the draw phase (e.g : switzerland cannot be on the same group
-with germany because they're bot on the european confederation,"see FIFA rules")
+/*The Engine class controls constraints of 
+the draw phase (e.g : switzerland cannot be
+beside germany in the same group because they're both in the european confederation,"see FIFA rules") 
 ---------------------------------------------------------------------------
-Second role of Engine class, it moves the flags 
+Second role of Engine class, it moves the flags inside paint's method (see Form1.cs)
 
 */
 using System;
