@@ -220,10 +220,10 @@ namespace worldCupTest2
                     string[] a = worldcup.getFlags(ListOfTeamsPassed[i][0]);
                 listOfNamesLeft[i].Text = a[0]; 
                       listOfFlagsOfLeftSide[i].BackgroundImage=
-                          Image.FromFile(@"D:\Mes Documents\Docs\S3\C#\TP C#\WorldCup\" + a[1] + @"\" + a[2] + ".png");
+                          Image.FromFile(@"D:\WorldCup\" + a[1] + @"\" + a[2] + ".png");
                     string[] b = worldcup.getFlags(ListOfTeamsPassed[i][1]);
                 listOfNamesRight[i].Text = b[0];
-                    listOfFlagsOfRightSide[i].BackgroundImage= Image.FromFile(@"D:\Mes Documents\Docs\S3\C#\TP C#\WorldCup\" + b[1] + @"\" + b[2] + ".png");
+                    listOfFlagsOfRightSide[i].BackgroundImage= Image.FromFile(@"D:\WorldCup\" + b[1] + @"\" + b[2] + ".png");
             }
         }
 
