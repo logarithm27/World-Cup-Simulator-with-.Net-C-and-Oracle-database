@@ -72,7 +72,7 @@ namespace worldCupTest2
                 //each png file must have a name within 1.png and 7.png 
                 _countriesFlagsOfPot1.Add
                     (Image.FromFile
-                    (@"D:\Mes Documents\Docs\S3\C#\TP C#\WorldCup\Pot1\" + k + ".png"));
+                    (@"D:\WorldCup\Pot1\" + k + ".png"));
                 
             }
             //yDown specify the Y coordinate on the 2D plane of the graphic
@@ -113,7 +113,7 @@ namespace worldCupTest2
             _countriesFlagsOfPot2 = new List<Image>();
             for (int k = 0; k < 8; k++)
             {
-                _countriesFlagsOfPot2.Add(Image.FromFile(@"D:\Mes Documents\Docs\S3\C#\TP C#\WorldCup\Pot2\" + k + ".png"));
+                _countriesFlagsOfPot2.Add(Image.FromFile(@"D:\WorldCup\Pot2\" + k + ".png"));
             }
             int yDown = 70;
             for (int i = 0; i < 8; i++)
@@ -149,7 +149,7 @@ namespace worldCupTest2
             _countriesFlagsOfPot3 = new List<Image>();
             for (int k = 0; k < 8; k++)
             {
-                _countriesFlagsOfPot3.Add(Image.FromFile(@"D:\Mes Documents\Docs\S3\C#\TP C#\WorldCup\Pot3\" + k + ".png"));
+                _countriesFlagsOfPot3.Add(Image.FromFile(@"D:\WorldCup\Pot3\" + k + ".png"));
             }
             int yDown = 70;
             for (int i = 0; i < 8; i++)
@@ -185,7 +185,7 @@ namespace worldCupTest2
             _countriesFlagsOfPot4 = new List<Image>();
             for (int k = 0; k < 8; k++)
             {
-                _countriesFlagsOfPot4.Add(Image.FromFile(@"D:\Mes Documents\Docs\S3\C#\TP C#\WorldCup\Pot4\" + k + ".png"));
+                _countriesFlagsOfPot4.Add(Image.FromFile(@"D:\WorldCup\Pot4\" + k + ".png"));
             }
             int yDown = 70;
             for (int i = 0; i < 8; i++)
