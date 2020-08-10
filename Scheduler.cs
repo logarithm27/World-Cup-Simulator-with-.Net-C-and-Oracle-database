@@ -4,7 +4,7 @@ using System;
 
 namespace worldCupTest2
 {
-    /*Round Robin Algorithm you can google it to understand */
+    /* I Used Round Robin Algorithm */
     
     public static class Scheduler
     {
